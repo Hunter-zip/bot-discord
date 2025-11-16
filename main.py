@@ -1,6 +1,7 @@
 import os
 import discord
-from discord.ext import commands
+from discord import Client, Intents, Bot
+# nie importuj modułów związanych z voice
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 
